@@ -1,0 +1,13 @@
+vizmap load file file="D:/KU_courses/Master's Thesis/TeX/figures/STRING/STRING_styles.xml"
+network import file file="D:/KU_courses/Master's Thesis/TeX/figures/STRING/combined_FL_M_lysosome_NewMember_ppi.tsv" firstRowAsColumnNames=true columnTypeList="s,t,sa,ta,sa,ta,sa,ta" startLoadRow=1
+network import file file="D:/KU_courses/Master's Thesis/TeX/figures/STRING/combined_FL_F_lysosome_NewMember_ppi.tsv" firstRowAsColumnNames=true columnTypeList="s,t,sa,ta,sa,ta,sa,ta" startLoadRow=1
+
+network import file file="D:/KU_courses/Master's Thesis/TeX/figures/STRING/combined_FL_M_mitophagy_NewMember_ppi.tsv" firstRowAsColumnNames=true columnTypeList="s,t,sa,ta,sa,ta,sa,ta" startLoadRow=1
+network import file file="D:/KU_courses/Master's Thesis/TeX/figures/STRING/combined_FL_F_mitophagy_NewMember_ppi.tsv" firstRowAsColumnNames=true columnTypeList="s,t,sa,ta,sa,ta,sa,ta" startLoadRow=1
+
+network import file file="D:/KU_courses/Master's Thesis/TeX/figures/STRING/combined_FL_M_oxid_NewMember_ppi.tsv" firstRowAsColumnNames=true columnTypeList="s,t,sa,ta,sa,ta,sa,ta" startLoadRow=1
+network import file file="D:/KU_courses/Master's Thesis/TeX/figures/STRING/combined_FL_F_oxid_NewMember_ppi.tsv" firstRowAsColumnNames=true columnTypeList="s,t,sa,ta,sa,ta,sa,ta" startLoadRow=1
+
+network import file file="D:/KU_courses/Master's Thesis/TeX/figures/STRING/combined_FL_M_mitochon_NewMember_ppi.tsv" firstRowAsColumnNames=true columnTypeList="s,t,sa,ta,sa,ta,sa,ta" startLoadRow=1
+network import file file="D:/KU_courses/Master's Thesis/TeX/figures/STRING/combined_FL_F_mitochon_NewMember_ppi.tsv" firstRowAsColumnNames=true columnTypeList="s,t,sa,ta,sa,ta,sa,ta" startLoadRow=1
+vizmap apply styles="STRING"
